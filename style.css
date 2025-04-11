@@ -1,0 +1,92 @@
+h1 {
+	color:#41413d;
+	font-size: 3em;
+	text-align: center;
+}
+
+
+h2 {
+    color:#41413d;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+h3 {
+    color:#41413d;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p {
+    
+	width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#41413d;
+	text-align: center;
+}
+
+
+body {
+    background-color: #ebebe8;
+    margin: 40px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    display: block; /* Centers the image */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto;
+}
+
+hr {
+    border: none; /* Removes the default border */
+    height: 2px; /* Sets the thickness of the line */
+    background-color: #41413d; /* Sets the color of the line */
+    margin: 20px 0; /* Adds space above and below the line */
+    width: 80%; /* Sets the width of the line */
+    margin-left: auto; /* Centers the line horizontally */
+    margin-right: auto;
+}
+
+.headshot-image {
+    margin-left: 400px;
+    float: left
+}
+
+.name {
+    width: 600px;
+    margin-left: 10px;
+    float: left;
+}
+
+.parent {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.child-one {
+    position: absolute;
+    width: 33%;
+    left: 0;
+    text-align: center;
+}
+
+.child-two {
+    position: absolute;
+    width: 33%;
+    left: 33.3%;
+    text-align: center;
+}
+
+.child-three {
+    position: absolute;
+    width: 33%;
+    left: 66.6%;
+    text-align: center;
+}
